@@ -29,7 +29,7 @@ animation = ["[■□□□□□□□□□]","[■■□□□□□□□□
 
 for i in range(len(animation)):
     time.sleep(0.2)
-    sys.stdout.write("\r" + animation[i % len(animation)])
+    sys.stdout.write(f"\r{animation[i % len(animation)]}")
     sys.stdout.flush()
 
 print("\n")
