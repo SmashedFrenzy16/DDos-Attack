@@ -42,7 +42,7 @@ while True:
   
   port = port + 1
   
-  print("Sent %s packet to %s throught port: %s"%(sent,ip,port))
+  print(f"Sent {sent} packet to {ip} throught port: {port}")
   
   if port == 65534:
     
